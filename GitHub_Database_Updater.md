@@ -25,7 +25,7 @@ We choosed this module to:
 	* Get access to the PR body and extract relevant info.
 	* Get access to the database file in order to update it.
 
-### 3) Regular Expressions **Regex**
+### 3) Regular Expressions (Regex)
 
 It was used to extract relevant info from the provided PR body.
 
@@ -68,4 +68,5 @@ I spent most of the time reading the documentations and experimenting. I have th
 - [PyGithub API Documentation](https://pygithub.readthedocs.io/en/latest/introduction.html)
 
 2) Regex
-I used to practice alot on HackerRank
+
+I used to practice alot on HackerRank.
