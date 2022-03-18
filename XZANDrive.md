@@ -36,6 +36,7 @@ I want to learn the most out of this project and for a responsive frontend and l
 
 ## Workflow
 
+```mermaid
 graph TD
     Endpoint["/"] --> LoggedIn{Is logged in?} -->|No| LogIn
     LogIn --> LoggedIn -->|Yes| Shared_Files_Endpoint
@@ -45,6 +46,7 @@ graph TD
     Admin["/admin/"] --> Is_Admin{Is user an admin} -->|No| Shared_Files_Endpoint
     Is_Admin -->|Yes| Admin_Page -->|Get_Request| Database
     Database -->|Users Records<br>Shared Directories<br>Activity Log| Admin_Page
+```
 
 <hr>
 
